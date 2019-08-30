@@ -12,13 +12,13 @@ body {
 }
 
 .topnav {
-    background-color: #333;
+    background-color: #324f39;
     overflow: hidden;
   }
 
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -31,6 +31,6 @@ body {
     }
 
 .topnav a.active {
-    background-color: #4CAF50;
+    background-color: #32A88B;
     color: white;
     }
