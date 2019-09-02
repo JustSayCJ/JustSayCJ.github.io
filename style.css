@@ -11,6 +11,22 @@ body {
     border-radius: 50%;
 }
 
+.box {
+    float: right;
+    background-color: #32A88B;
+    border-style: solid;
+    border-color: #324f39;
+    border-width: 10px;
+    width: 49%;
+    text-align: center;
+    color: white;
+}
+
+#studiewijzer {
+    text-align: left;
+    color: white;
+}
+
 .topnav {
     background-color: #324f39;
     overflow: hidden;
