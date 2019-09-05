@@ -51,3 +51,15 @@ body {
     background-color: #32A88B;
     color: white;
     }
+
+@keyframes border {
+    0% {border-color: #324f39}
+    50% {border-color: #32A88B}
+    100% {border-color: #324f39}
+}
+
+img {
+    animation-name: border;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
