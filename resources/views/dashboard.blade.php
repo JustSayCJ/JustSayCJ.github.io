@@ -44,7 +44,7 @@
                     <td>Hogeschooltaal NL</td>
                     <td>33%</td>
                     <td>2.5</td>
-                    <td class="cijfer">91%</td>
+                    <td class="cijfer">9,1</td>
                 </tr>
                 <tr>
                     <td></td>
@@ -89,7 +89,7 @@
                     <td>Agile functioneren</td>
                     <td>50%</td>
                     <td>2.5</td>
-                    <td class="cijfer"></td>
+                    <td class="cijfer">4,0</td>
                 </tr>
                 <tr>
                     <td></td>
