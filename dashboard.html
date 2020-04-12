@@ -1,9 +1,38 @@
-@extends("layout")
-@section("content")
-    <div class="container-fluid row text-center">
-        <h2>Hoe sta ik ervoor?</h2>
-    </div>
-        <div class="jumbotron col-12 dashboardTable">
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Christian - Dashboard</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <style>
+            th, td {
+                border: 1px solid black;
+                padding: 3px;
+            }
+            table {
+                display: block;
+                margin-left: 0px;
+                margin-right: 0PX;
+                width: 49%;
+                border-collapse: collapse;
+                float: left;
+                margin-bottom: 10px;
+            } 
+        </style>
+        <link rel="stylesheet" href="style.css">
+        <div class=topnav>
+            <a href=index.html>Home</a>
+            <a href=profile.html>Over mij</a>
+            <a class=active href=dashboard.html>Dashboard</a>
+            <a href="motivatie.html">Motivatie</a>
+            <a href="beroepsbeeld.html">Beroepsbeeld</a>
+        </div>
+        <h1>Mijn dashboard</h1>
+    </head>
+    <body>
+        <div class="table">
         <table>
                 <tr style="background-color: #324f39; color: white">
                     <th>Cursus</th>
@@ -41,24 +70,24 @@
                 </tr>
                 <tr>
                     <td>Professional skills 1</td>
-                    <td>Hogeschooltaal NL</td>
+                    <td>Presentatie</td>
                     <td>33%</td>
                     <td>2.5</td>
-                    <td class="cijfer">9,1</td>
+                    <td class="cijfer"></td>
                 </tr>
                 <tr>
                     <td></td>
                     <td>Verslag</td>
                     <td>33%</td>
                     <td></td>
-                    <td class="cijfer">5,5</td>
+                    <td class="cijfer"></td>
                 </tr>
                 <tr>
                     <td></td>
                     <td>Functioneringsgesprek</td>
                     <td>33%</td>
                     <td></td>
-                    <td class="cijfer">-</td>
+                    <td class="cijfer"></td>
                 </tr>
                 <tr>
                     <td>HZ Personality</td>
@@ -72,14 +101,14 @@
                     <td>Casustoets</td>
                     <td>50%</td>
                     <td>5</td>
-                    <td class="cijfer">5,6</td>
+                    <td class="cijfer"></td>
                 </tr>
                 <tr>
                     <td></td>
                     <td>Groepsproject</td>
                     <td>50%</td>
                     <td>5</td>
-                    <td class="cijfer">8,5</td>
+                    <td class="cijfer"></td>
                 </tr>
                 <tr>
                     <th colspan="8" style="background-color: #32A88B; color: white">Blok 3</th>
@@ -89,21 +118,21 @@
                     <td>Agile functioneren</td>
                     <td>50%</td>
                     <td>2.5</td>
-                    <td class="cijfer">4,0</td>
+                    <td class="cijfer"></td>
                 </tr>
                 <tr>
                     <td></td>
                     <td>Engels opdrachten</td>
                     <td>25%</td>
                     <td></td>
-                    <td class="cijfer">9,6</td>
+                    <td class="cijfer"></td>
                 </tr>
                 <tr>
                     <td></td>
                     <td>Engels werkstuk</td>
                     <td>25%</td>
                     <td></td>
-                    <td class="cijfer">-</td>
+                    <td class="cijfer"></td>
                 </tr>
                 <tr>
                     <td>Professionele werkplek</td>
@@ -117,7 +146,7 @@
                     <td>Casustoets</td>
                     <td>100%</td>
                     <td>5</td>
-                    <td class="cijfer">6,7</td>
+                    <td class="cijfer"></td>
                 </tr>
                 <tr>
                     <td>Framework project 1</td>
@@ -131,7 +160,7 @@
                     <td>Projectresultaat</td>
                     <td>50%</td>
                     <td></td>
-                    <td class="cijfer">8,9</td>
+                    <td class="cijfer"></td>
                 </tr>
                 <tr>
                     <th colspan="8" style="background-color: #32A88B; color: white">Blok 4</th>
@@ -187,14 +216,11 @@
                 </tr>
         </table>
         </div>
-    <div class="container-fluid">
         <div class="box" style="text-align: left">
-            <p style="margin-left: 25px">Behaalde EC: 27.5</p>
+            <p style="margin-left: 25px">Behaalde EC: 15</p>
             <p style="margin-left: 25px">NBSA grens: 45EC</p>
             <p style="margin-left: 25px">Propedeuse: 60EC</p>
         </div>
-    </div>
-    <div class="container-fluid">
         <div class="box">
             <h2>Studiewijzer</h2>
             <p id="studiewijzer">
@@ -208,6 +234,6 @@
                 </ul>
             </p>
         </div>
-    </div>
         <script src="./app.js"></script>
-@endsection
+    </body>
+</html>
