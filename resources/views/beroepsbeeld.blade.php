@@ -1,0 +1,51 @@
+@extends("layout")
+@section("content")
+    <div class="jumbotron">
+    <h1>Mijn beroepsbeeld</h1>
+    <p>Voor de opdracht over ons beroepbsbeeld hebben we 2 dingen gedaan: naar het HBO-I event, en een dag bedrijvensafari. Over deze 2 activiteiten ga ik je hier wat meer vertellen.</p>
+    <h2>HBO-I event</h2>
+    <p>
+        Dit event vond plaats in de Jaarbeurs in Utrecht. Hier konden we bij verschillende bedrijven een kijkje nemen, omdat ze met een stand in de Jaarbeurs stonden. Hier konden we dus informatie opdoen over wat ze doen, hoe ze dat doen, en wat hun visie is. Ook heb ik wat informatie opgedaan over een aantal verschillende rollen binnen een ICT bedrijf. Een aantal van de meest voorkomende rollen zijn bijvoorbeeld:
+        <ul>
+            <li>Applicatiebeheer</li>
+            <li>Consultancy</li>
+            <li>Systeembeheer</li>
+            <li>Management</li>
+            <li>Recruitment</li>
+        </ul>
+        <img src="./assets/event-foto1.jpg" alt="HBO-I foto bij ingang" width=35%>
+    </p>
+    <p>
+        Op dit event heb ik een aantal bedrijven bezocht. Dit zijn onder andere:
+        <ul>
+            <li>Chipsoft</li>
+            <li>CBS</li>
+            <li>Motion10</li>
+            <li>KPN ICT Consulting</li>
+            <li>Cegeka</li>
+            <li>Accenture</li>
+            <li>Betabit</li>
+            <li>Achmea</li>
+            <li>Capgemini</li>
+            <li>Team Rockstars IT (zie onderstaande foto)</li>
+        </ul>
+        <img src="./assets/event-foto2.jpg" alt="HBO-I Team Rockstars IT" width=35%>
+    </p>
+    <p>
+        Ook heb ik een masterclass bezocht, namelijk Gamification. Hier werd uitgelegd hoe we games kunnen gebruiken om problemen op te kunnen lossen. Ook werden er een aantal voorbeelden gegeven die op dit moment al in de praktijk worden toegepast.
+    </p>
+    <img src="./assets/event-foto3.jpg" alt="HBO-I foto met Loek" width=35%>
+    <h2>Bedrijvensafari</h2>
+    <p>
+        Een halve week later zijn we op bedrijvensafari geweest. Dit was bij 3 bedrijven in Zierikzee, namelijk:
+        <ul>
+            <li>O'moda</li>
+            <li>Syntess</li>
+            <li>YourSurprise</li>
+        </ul>
+        Ook hier hebben we uitleg gekregen hoe de ICT-afdeling binnen deze bedrijven er uit ziet, en wat ze verwachten van het team. Daarnaast hebben we bij O'moda en YourSurprise een rondleiding gekregen door het gebouw.
+    </p>
+    <h5>Hier is nog een foto van mij terwijl ik Rocket League speel op het HBO-I event:</h5>
+    <img src="./assets/event-foto4.jpg" alt="HBO-I ik speel Rocket League" width=35%>
+    </div>
+@endsection

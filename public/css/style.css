@@ -1,0 +1,80 @@
+body {
+    background-color:#eeeeee;
+    color:#333333;
+    font-family:Arial, Verdana, sans-serif;
+}
+
+.thick-black-border {
+    border-color: #324f39;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.box {
+    float: none;
+    background-color: #32A88B;
+    border-style: solid;
+    border-color: #324f39;
+    border-width: 10px;
+    width: 80%;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#studiewijzer {
+    text-align: left;
+    color: white;
+}
+
+.topnav {
+    background-color: #324f39;
+    overflow: hidden;
+  }
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+    }
+
+.topnav a.active {
+    background-color: #32A88B;
+    color: white;
+    }
+
+@keyframes border {
+    0% {border-color: #324f39}
+    50% {border-color: #32A88B}
+    100% {border-color: #324f39}
+}
+
+img {
+    animation-name: border;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.dashboardTable {
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.dashboardTable td, th {
+    border: 1px solid black;
+    padding: 3px;
+}
+

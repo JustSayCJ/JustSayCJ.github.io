@@ -1,0 +1,52 @@
+@extends("layout")
+@section("content")
+    <div class="jumbotron lead">
+    <h1>Hoe werkt motivatie?</h1>
+    <h2>Theorie</h2>
+    <p>
+        Volgens Wikipedia is motivatie iets wat iemand tot bepaald gedrag drijft. Dit heeft invloed op de initiatie, richting, intensiteit en volharding van het menselijk gedrag. Het is een combinatie van biologische en aangeleerde eigenschappen van een individu en zijn omgeving.
+    </p>
+    <p>
+        Op de website www.leren.nl staat dat motivatie het gevoel is dat je aanzet tot het beginnen én afmaken van een taak. Het zet je aan tot bepaald gedrag. Met dat gedrag denk je iets te krijgen dat je nodig hebt.
+        Er wordt geschreven dat het een gedrevenheid is om energie te investeren in een actie waarvan je denkt dat hij de vervulling van je eigen behoeften dichterbij brengt. Ze geven een voorbeeld met een plaatje:
+    </p>
+    <img src=https://www.leren.nl/cursus/management/motiveren/images/motivatiecyclus.gif alt="Motivatiecyclus">
+    <p>
+        Op de website www.vernieuwenderwijs.nl staat een artikel van Wessel Peeters. Hij zegt dat motivatie een containerbegrip is. Het kan verdeeld worden in interne en externe motivatie. Het gaat om interne motivatie als het doel van een activiteit gelegen is in de activiteit zelf. Iemand is door de activiteit zelf gemotiveerd (bijvoorbeeld leren om te leren). Het is externe motivatie als er wordt verwacht dat het doen van een activiteit een bepaalde beloning heeft.
+    </p>
+    <p>
+        Volgens Dan Pink is motivatie niet gebaseerd op een van te voren afgesproken doel. Volgens hem gaat het erom dat het iets moet zijn wat je wil doen, waarbij je niet beperkt bent tot bepaalde middelen. Dit zorgt voor meer creativiteit, en zorgt er voor dat er dingen gemaakt worden die voor jou heel belangrijk zijn. Het is namelijk vaak zo dat iemand die moet werken met een beperkt aantal middelen, maar daar wel een bonus voor krijgt, een slechtere score haalt dan iemand zonder beperkingen die geen bonus krijgt. Dus door iemand toegang te geven tot alles wat hij/zij nodig heeft, krijg je uiteindelijk een beter resultaat.
+    </p>
+    <p>
+        Dit zie je terug in het artikel op testnet.org. Hierin staat dat softwaretesters echte vakmensen zijn, die het leuk vinden om ontwikkelingen bij te houden en hun vak uit te dragen bij hun klanten; om de klant bewust te maken van het belang van softwaretesten. Daarnaast wordt er benoemd dat testers meer autonomie willen en op zoek zijn naar hogere zingeving. Ze willen zien en horen dat ze van toegevoegde waarde zijn en willen graag zelf meer invloed op hun ontwikkeling. Dit is precies wat Dan Pink in het filmpje ook aangeeft.
+    </p>
+    <p>
+        Op de website van carrieretijger.nl staat een artikel over prestatiemotivatie. Dit is de innerlijke wil om goed te presteren, doelen te halen en succesvol te zijn. Dit hangt samen met de motivatie om falen te voorkomen. Dit is echter wel voor iedere persoon anders. Iemand met een hoge prestatiemotivatie is vaak intrinsiek gemotiveerd, heeft een voorkeur voor werkzaamheden die een beroep doen op zijn competenties, kiest graag taken die net boven zijn kunnen liggen en ervaart weinig faalangst. Intrinsieke motivatie houdt in dat iemand van binnenuit geprikkeld wordt om een bepaalde activiteit te ondernemen vanwege het plezier dat hij eraan beleeft. Dit benoemt Dan Pink ook in het filmpje.
+    </p>
+    <h2>Prestatiemotivatie</h2>
+    <p>
+        Je bent in sterke mate intrinsiek gemotiveerd en redelijk extrinsiek gemotiveerd. Dat je in sterke mate intrinsiek gemotiveerd bent betekent <mark>dat je het echt leuk vindt om te studeren.</mark> <mark>Je beleeft er plezier aan om beter en wijzer te worden.</mark> De kans dat jij iets opsteekt van school/je studie is dan ook groot. Dat je in redelijke mate extrinsiek gemotiveerd bent wil zeggen <mark>dat je er ook rekening mee houdt wat je met je studie kunt bereiken</mark>: een diploma, geld, status of de erkenning van de mensen waar je van houdt. <mark>Toch is voor jou interesse de belangrijkste drijfveer om te studeren.</mark>
+    </p>
+    <p>
+        Met deze uitslag ben ik het eens, want ik vind het inderdaad erg leuk om nieuwe dingen te leren, zolang ze binnen mijn interesse liggen. Daarnaast ben ik me heel erg bewust van het feit dat ICT-ers erg gewild zijn, en dat ik dus een goed betaalde baan aan deze studie kan overhouden later. Ten slotte wil ik graag dat mijn familie me waardeert en trots is op wat ik bereikt heb.
+    </p>
+    <h2>Carrièreankers</h2>
+    <p>
+        Uit de test bleek dat ik onafhankelijkheid en ergens goed in zijn het belangrijkst vind. Hier ben ik het mee eens, omdat ik graag dingen zelf wil kunnen plannen en doen, en ik heb er een hekel aan als me dingen verteld worden die ik moet doen. Daarnaast vind ik het inderdaad erg leuk om ergens goed in te zijn. Hierdoor heb ik altijd wel een antwoord als iemand daarover iets wil weten. Zo heb ik zelf bijles wiskunde en Engels gegeven tijdens mijn middelbare schooltijd.
+    </p>
+    <p>
+        Uit de test bleek ook dat ik normen en waarden het minst belangrijk vind. Ik vind zelf mensen helpen wel belangrijk, maar bijdragen aan een groter geheel om de wereld te verbeteren is niet iets wat in mij zit. Dus hier ben ik het ook mee eens.
+    </p>
+    <h5>Bronnenlijst</h5>
+    <ul>
+        <li>Wikipedia</li>
+        <li>www.leren.nl</li>
+        <li>www.vernieuwenderwijs.nl</li>
+        <li>https://www.ted.com/talks/dan_pink_on_motivation/up-next</li>
+        <li>https://nieuws.testnet.org/artikelen/de-motivatie-van-software-testend-nederland/</li>
+        <li>http://www.carrieretijger.nl/functioneren/management/prestatiemotivatie</li>
+        <li>https://www.123test.nl/prestatiemotivatie/</li>
+        <li>https://www.123test.nl/schein/</li>
+    </ul>
+    </div>
+@endsection
