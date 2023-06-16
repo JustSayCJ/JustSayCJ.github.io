@@ -63,3 +63,24 @@ img {
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .picture-explanation-container {
+    display: flex;
+  }
+  
+  #picture {
+    width: 50%;
+    margin-right: 1rem;
+  }
+  
+  #explanation {
+    letter-spacing: 0px;
+    line-height: 20px;
+  }
